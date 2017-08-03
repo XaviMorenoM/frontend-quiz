@@ -1,7 +1,5 @@
-import React from 'react'
-import {
-  Link,
-} from 'react-router-dom'
+import React from 'react';
+import Links from '../../components/Links';
 
 class About extends React.PureComponent {
   render() {
@@ -10,9 +8,7 @@ class About extends React.PureComponent {
         <p>
           About Component
         </p>
-        <Link to="/">
-          Link to home
-        </Link>
+        <Links />
       </div>
     )
   }
